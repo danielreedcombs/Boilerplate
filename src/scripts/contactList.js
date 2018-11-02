@@ -1,7 +1,8 @@
 import contentCollectionAPI from "./contactCollection"
 
-contactlist={
-    makeList: contentCollectionAPI.getContacts()
+const contactList={
+    makeList:()=>{contentCollectionAPI.getContacts()}
+
 }
 
 export default contactList
