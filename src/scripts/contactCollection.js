@@ -9,11 +9,13 @@ const contactCollectionAPI= {
         })
     },
     putContacts:() =>{
-    return fetch("http://localhost:8088/contacts")
-    .then(contacts => contacts.json())
-    .then(parsedContacts => {
-      console.log(parsedContacts)
-    })
+    return fetch("http://localhost:8088/contacts"),{
+        method:"POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify()
+    }
 }
 }
 

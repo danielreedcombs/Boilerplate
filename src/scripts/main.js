@@ -1,7 +1,8 @@
 // import sayHello from "./Contact"
 import sayGoodbye from "./contactList"
 import contactList from "./contactList";
-// import contentCollectionAPI from "./contactCollection"
+import submitButton from "./contactForm"
+// import contentCollectionAPI from "./contac   tCollection"
 
 // A ContactCollection component that loads existing contacts from storage, and saves new ones. Each new contact should have an auto-generated identifier.
 // A Contact component that displays a person's name, phone number, and address.
