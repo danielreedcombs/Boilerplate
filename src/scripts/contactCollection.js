@@ -1,25 +1,18 @@
 
-
+// fetching data to post and to also get data to show on the main page.
 const contactCollectionAPI= {
     getContacts:() => {
         return fetch("http://localhost:8088/contacts")
         .then(contacts => contacts.json())
-        .then(parsedContacts => {
-          console.log(parsedContacts)
-        })
+        .then(parsedContacts=> console.log(parsedContacts))
     },
-    putContacts:() =>{
-    return fetch("http://localhost:8088/contacts"),{
+    postContacts:(obj) =>{
+    return fetch("http://localhost:8088/contacts",{
         method:"POST",
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify()
-    }
+        body: JSON.stringify(obj)
+    })}
 }
-}
-
-// const nameDisplay= document.querySelector("#nameDisplay")
-// nameDisplay.push(contentCollectionAPI.getContacts()
-
 export default contactCollectionAPI

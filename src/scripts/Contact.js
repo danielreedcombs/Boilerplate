@@ -1,22 +1,8 @@
+import contactCollectionAPI from "./contactCollection"
 
-// import pullInformation from "./contentCollection"
-
-const name= document.querySelector("#name")
-const address= document.querySelector("#addressEntry")
-const phoneNumber= document.querySelector("#phoneNumber")
-const submitButton= document.querySelector("#submitButton")
-let obj={
-    contactName: "",
-    contactAddress:"",
-    contactPhone:""
+const Contact = (obj) => {
+    return`<h1>Name: ${obk.name}</h1>
+    <p><Address: ${obj.address}</p>
+    <p>Phone number: ${obj.phone}</p>`
 }
-    function pullInformation(){
-        obj.contactName=(name.value)
-        obj.contactAddress=(address.value)
-        obj.contactPhone=(phoneNumber.value)
-        console.log(obj)
-    }
-
-// submitButton.addEventListener("click", () =>{
-//     pullInformation()
-//     })
+export default Contact

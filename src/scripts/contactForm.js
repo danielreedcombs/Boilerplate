@@ -1,29 +1,18 @@
-import contactCollection from "./contactCollection"
+import contactCollectionAPI from "./contactCollection"
 
-const submitButton= document.querySelector("#submitButton")
-const createContact={
-contactMachine: function pullInformation(){
+// creates a object based on users input and sends it to the json folder.
+const createContact= function createInformation(){
             const name= document.querySelector("#name")
             const address= document.querySelector("#addressEntry")
             const phoneNumber= document.querySelector("#phoneNumber")
             let obj={
-                contactName: "",
-                contactAddress:"",
-                contactPhone:""
+                name: "",
+                address:"",
+                phoneNumber:""
             }
-            obj.contactName=(name.value)
-            obj.contactAddress=(address.value)
-            obj.contactPhone=(phoneNumber.value)
-            contactCollection.putContacts(obj)
+            obj.name=(name.value)
+            obj.address=(address.value)
+            obj.phoneNumber=(phoneNumber.value)
+            contactCollectionAPI.postContacts(obj)
         }
-
-    
-    
-        
-    
-        const submitButton= document.querySelector("#submitButton")
-submitButton.addEventListener("click", ()=>{
-    createContact.pullInformation()
-
-})
 export default createContact
