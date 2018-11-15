@@ -2,52 +2,38 @@
   "contacts": [
     {
       "id": 0,
-      "name": "debby",
-      "address": "321 Billy Dr.",
-      "phoneNumber": "828-773-1525"
-    },
-    {
       "name": "",
       "address": "",
-      "phoneNumber": "",
-      "contactName": "Joe Brown",
-      "contactAddress": "828-773-7777.",
-      "contactPhone": "500 Interstate Blvd.",
+      "phoneNumber": ""
+    },
+    {
+      "name": "Joe Brown",
+      "address": "500 Interstate Blvd",
+      "phoneNumber": "828-773-7777",
       "id": 1
     },
     {
-      "name": "",
-      "address": "",
-      "phoneNumber": "",
-      "contactName": "Tim",
-      "contactAddress": "828-331-4455",
-      "contactPhone": "Murda",
+      "name": "Joe Brown",
+      "address": "500 Interstate Blvd",
+      "phoneNumber": "828-773-7777",
       "id": 2
     },
     {
-      "name": "",
-      "address": "",
-      "phoneNumber": "",
-      "contactName": "Joe Brown",
-      "contactAddress": "828-773-7777.",
-      "contactPhone": "500 Interstate Blvd.",
+      "name": "Joe Brown",
+      "address": "500 Interstate Blvd",
+      "phoneNumber": "828-773-7777",
       "id": 3
     },
     {
-      "name": "",
-      "address": "",
-      "phoneNumber": "",
-      "contactName": "Joe Brown",
-      "contactAddress": "828-773-7777.",
-      "contactPhone": "500 Interstate Blvd.",
+      "name": "Joe Brown",
+      "address": "500 Interstate Blvd",
+      "phoneNumber": "828-773-7777",
       "id": 4
     },
     {
-      "name": "",
-      "address": "",
-      "phoneNumber": "500 Interstate Blvd.",
-      "Name": "Joe Brown",
-      "Address": "828-773-7777.",
+      "name": "Joe Brown",
+      "address": "500 Interstate Blvd",
+      "phoneNumber": "828-773-7777",
       "id": 5
     },
     {
@@ -55,12 +41,6 @@
       "address": "500 Interstate Blvd",
       "phoneNumber": "828-773-7777",
       "id": 6
-    },
-    {
-      "name": "Joe Brown",
-      "address": "500 Interstate Blvd",
-      "phoneNumber": "828-773-7777",
-      "id": 7
     }
   ]
 }
